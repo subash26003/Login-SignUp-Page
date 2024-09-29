@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&family=Lora:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+.login-card{
+    box-shadow: 0 0px 12px 4px rgba(46, 57, 155, 0.263); 
+    background-color: transparent;
+    border-radius: 30px;
+    /* min-height: 600px; */
+}
+.login-card h1{
+    font-family: 'Montserrat';
+    color: #ff4500;
+}
+
+.input-card{
+    display: flex;
+    flex-direction: column;
+}
+.input-element{
+    background-color: transparent !important;
+    border-bottom: 2px solid rgba(3, 7, 91, 0.852);
+    height: 7px;
+    outline: 0px;
+    transition: all .5s;
+}
+
+
+
+.input-element:active , .input-element:hover, .input-element:focus , .input-element:valid {
+    height: 30px;
+    background-color: transparent !important;
+    
+}
+
+
+.forget-pass a{
+    color: rgba(82, 87, 177, 0.852);
+    text-decoration: underline;
+}
+.login-btn{
+    background-color: #ff4500;
+    padding: 7px 0px;
+    color: white;
+    width: 100%;
+    transition: all .25s;
+    border-radius: 20px;
+}
+
+.SignUp-btn{
+    color:rgba(82, 87, 177, 0.852);
+    text-decoration: underline;
+}
+
+.social-login-card i{
+    color:black;
+    cursor: pointer;
+    transition: all .25s;
+}
+
+.social-login-card i:hover{
+    color: #ff4500;
+}

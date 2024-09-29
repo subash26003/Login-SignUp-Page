@@ -1,0 +1,21 @@
+.app-card{
+
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.rotate-card-login{
+    transform:  rotateY(90deg);
+    position: absolute;
+    z-index: -1000;
+}
+.rotate-card-signup{
+    transform:  rotateY(-90deg);
+    position: absolute;
+    z-index: 10;
+}
+
+
+.login-container , .signup-container{
+    transition: all .5s;
+}

@@ -1,0 +1,5 @@
+.modal-bg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.534),rgba(0, 0, 0, 0.534));
+    z-index: 10000;
+    top:0;
+}
